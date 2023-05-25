@@ -5,6 +5,6 @@ locals {
     project       = "roboshop"
     cost_center   = 100
     env           = var.env
-    Name = "${var.env}-vpc"
+    
   }
 }
