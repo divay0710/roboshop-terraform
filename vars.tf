@@ -1,12 +1,15 @@
-variable "instance_type" {}
-variable "subnet_ids" {}
-variable "name" {}
 variable "env" {}
-variable "vpc_id" {}
-variable "allow_app_cidr" {}
+variable "vpc" {}
+variable "app" {}
 variable "bastion_cidr" {}
-variable "desired_capacity" {}
-variable "max_size" {}
-variable "min_size" {}
-variable "tags" {}
-variable "app_port" {}
+variable "default_vpc_id" {}
+variable "default_vpc_cidr" {}
+variable "default_vpc_rtid" {}
+
+variable "docdb" {}
+variable "rds" {}
+variable "elasticache" {}
+variable "rabbitmq" {}
+variable "alb" {}
+
+variable "kms_arn" {}
