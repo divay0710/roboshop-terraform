@@ -1,6 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
 module "vpc" {
   source = "git::https://github.com/divay0710/tf-module-vpc.git"
 
